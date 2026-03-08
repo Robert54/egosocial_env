@@ -1,5 +1,64 @@
+# Python
 .venv/
+venv/
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Test and type-check caches
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+htmlcov/
+
+# Packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+openenv_egosocial_env.egg-info/
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Environment / local config
+.env
+.env.*
+*.local
+.direnv/
+
+# Logs and runtime artifacts
+*.log
+*.out
+*.err
+logs/
+wandb/
+runs/
+artifacts/
+outputs/
+checkpoints/
+
+# Data and large local assets
+data/egonormia/
+*.parquet
+*.arrow
+*.feather
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# Local lockfiles and temp files
 uv.lock
+tmp/
+temp/
+.cache/
